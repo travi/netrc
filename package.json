@@ -1,30 +1,31 @@
 {
   "name": "@travi/netrc",
-  "version": "0.0.0-semantically-released",
   "description": "Parse netrc files",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/travi/netrc.git"
-  },
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "contributors": [
+    "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
+  ],
+  "repository": "travi/netrc",
+  "bugs": "https://github.com/travi/netrc/issues",
+  "homepage": "https://npm.im/@travi/netrc",
   "keywords": [
     "netrc"
   ],
-  "author": "Cameron Bytheway <cameron@nujii.com>",
-  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:publish": "publint --strict"
+  },
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
-  "contributors": [
-    "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
-  ],
+  "packageManager": "npm@10.8.2+sha512.c7f0088c520a46596b85c6f8f1da943400199748a0f7ea8cb8df75469668dc26f6fb3ba26df87e2884a5ebe91557292d0f3db7d0929cdb4f14910c3032ac81fb",
   "devDependencies": {
     "mocha": "~1.9.0",
+    "publint": "0.2.8",
     "should": "~1.2.2"
-  },
-  "packageManager": "npm@10.8.2+sha512.c7f0088c520a46596b85c6f8f1da943400199748a0f7ea8cb8df75469668dc26f6fb3ba26df87e2884a5ebe91557292d0f3db7d0929cdb4f14910c3032ac81fb"
+  }
 }
