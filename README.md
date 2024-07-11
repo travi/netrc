@@ -4,6 +4,8 @@ Parse netrc files
 
 <!--status-badges start -->
 
+[![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+
 <!--status-badges end -->
 
 ## Usage
@@ -75,3 +77,7 @@ $ npm install
 ```sh
 $ npm test
 ```
+
+[github-actions-ci-link]: https://github.com/travi/netrc/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
+
+[github-actions-ci-badge]: https://img.shields.io/github/actions/workflow/status/travi/netrc/node-ci.yml.svg?branch=master&logo=github
