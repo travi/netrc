@@ -5,6 +5,7 @@ Parse netrc files
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+![SLSA Level 2][slsa-badge]
 
 <!--status-badges end -->
 
@@ -92,3 +93,5 @@ $ npm test
 [renovate-link]: https://renovatebot.com
 
 [renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg?logo=renovatebot
+
+[slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
