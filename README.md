@@ -1,10 +1,8 @@
-netrc [![Build Status](https://travis-ci.org/camshaft/netrc.png?branch=master)](https://travis-ci.org/camshaft/netrc)
-=====
+# netrc [![Build Status](https://travis-ci.org/camshaft/netrc.png?branch=master)](https://travis-ci.org/camshaft/netrc)
 
 Parse netrc files
 
-Usage
------
+## Usage
 
 ```js
 var netrc = require('netrc');
@@ -20,8 +18,7 @@ myNetrc['github.com'].login = 'my-new-oauth-token';
 netrc.save(myNetrc);
 ```
 
-API
----
+## API
 
 ### netrc([file])
 
