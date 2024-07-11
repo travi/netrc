@@ -15,6 +15,13 @@
   ],
   "author": "Cameron Bytheway <cameron@nujii.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "contributors": [
+    "Matt Travi <npm@travi.org> (https://matt.travi.org/)"
+  ],
   "devDependencies": {
     "mocha": "~1.9.0",
     "should": "~1.2.2"
