@@ -63,6 +63,8 @@ Persists a netrc object to `~/.netrc`
 
 <!--contribution-badges start -->
 
+[![semantic-release: angular][semantic-release-badge]][semantic-release-link]
+
 <!--contribution-badges end -->
 
 ### Dependencies
@@ -81,3 +83,7 @@ $ npm test
 [github-actions-ci-link]: https://github.com/travi/netrc/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
 [github-actions-ci-badge]: https://img.shields.io/github/actions/workflow/status/travi/netrc/node-ci.yml.svg?branch=master&logo=github
+
+[semantic-release-link]: https://github.com/semantic-release/semantic-release
+
+[semantic-release-badge]: https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release
