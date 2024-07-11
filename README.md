@@ -13,6 +13,8 @@ Parse netrc files
 
 <!--consumer-badges start -->
 
+[![npm][npm-badge]][npm-link]
+
 <!--consumer-badges end -->
 
 ```js
@@ -95,3 +97,7 @@ $ npm test
 [renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg?logo=renovatebot
 
 [slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
+
+[npm-link]: https://www.npmjs.com/package/@travi/netrc
+
+[npm-badge]: https://img.shields.io/npm/v/@travi/netrc?logo=npm
