@@ -64,6 +64,7 @@ Persists a netrc object to `~/.netrc`
 <!--contribution-badges start -->
 
 [![semantic-release: angular][semantic-release-badge]][semantic-release-link]
+[![Renovate][renovate-badge]][renovate-link]
 
 <!--contribution-badges end -->
 
@@ -87,3 +88,7 @@ $ npm test
 [semantic-release-link]: https://github.com/semantic-release/semantic-release
 
 [semantic-release-badge]: https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release
+
+[renovate-link]: https://renovatebot.com
+
+[renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg?logo=renovatebot
