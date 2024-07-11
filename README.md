@@ -1,4 +1,4 @@
-# netrc [![Build Status](https://travis-ci.org/camshaft/netrc.png?branch=master)](https://travis-ci.org/camshaft/netrc)
+# netrc
 
 Parse netrc files
 
