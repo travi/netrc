@@ -2,7 +2,15 @@
 
 Parse netrc files
 
+<!--status-badges start -->
+
+<!--status-badges end -->
+
 ## Usage
+
+<!--consumer-badges start -->
+
+<!--consumer-badges end -->
 
 ```js
 var netrc = require('netrc');
@@ -49,8 +57,21 @@ Formats a netrc object into a valid string
 
 Persists a netrc object to `~/.netrc`
 
-## Tests
+## Contributing
 
+<!--contribution-badges start -->
+
+<!--contribution-badges end -->
+
+### Dependencies
+
+```sh
+$ nvm install
+$ npm install
 ```
+
+### Verification
+
+```sh
 $ npm test
 ```
