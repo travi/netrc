@@ -14,6 +14,7 @@ Parse netrc files
 <!--consumer-badges start -->
 
 [![npm][npm-badge]][npm-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -101,3 +102,5 @@ $ npm test
 [npm-link]: https://www.npmjs.com/package/@travi/netrc
 
 [npm-badge]: https://img.shields.io/npm/v/@travi/netrc?logo=npm
+
+[node-badge]: https://img.shields.io/node/v/@travi/netrc?logo=node.js
