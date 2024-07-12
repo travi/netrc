@@ -2,8 +2,8 @@
  * Module dependencies
  */
 
-var fs = require('fs');
-var join = require('path').join;
+var fs = require('node:fs');
+var join = require('node:path').join;
 
 /**
  * Read and parse .netrc
@@ -13,14 +13,14 @@ var join = require('path').join;
  * @api public
  */
 
-module.exports = exports = function(file) {
+module.exports = exports = async function(file) {
   var home = getHomePath();
 
   if (!file && !home) return {};
   file = file || join(home, '.netrc');
 
   if (!file || !fs.existsSync(file)) return {};
-  var netrc = fs.readFileSync(file, 'UTF-8');
+  var netrc = await fs.promises.readFile(file, 'utf-8');
   return exports.parse(netrc);
 };
 

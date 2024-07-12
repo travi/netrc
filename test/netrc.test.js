@@ -12,8 +12,8 @@ var valid = fs.readFileSync(__dirname+"/fixtures/netrc-valid", "utf-8")
 describe("netrc", function() {
 
   describe("read", function() {
-    it("should parse a valid file", function() {
-      var machines = netrc(__dirname+"/fixtures/netrc-valid");
+    it("should parse a valid file", async function() {
+      var machines = await netrc(__dirname+"/fixtures/netrc-valid");
       should.exist(machines);
       machines.should.have.property("github.com");
       machines["github.com"].should.have.property("login");
@@ -22,8 +22,8 @@ describe("netrc", function() {
       machines["github.com"].password.should.eql("123");
     });
 
-    it("should parse a valid file with comments", function() {
-      var machines = netrc(__dirname+"/fixtures/netrc-valid-w-comment");
+    it("should parse a valid file with comments", async function() {
+      var machines = await netrc(__dirname+"/fixtures/netrc-valid-w-comment");
       should.exist(machines);
       machines.should.have.property("github.com");
       machines["github.com"].should.have.property("login");
@@ -32,8 +32,8 @@ describe("netrc", function() {
       machines["github.com"].password.should.eql("123");
     });
 
-    it("should not parse an invalid string", function() {
-      var machines = netrc(__dirname+"/fixtures/netrc-invalid");
+    it("should not parse an invalid string", async function() {
+      var machines = await netrc(__dirname+"/fixtures/netrc-invalid");
       should.exist(machines);
       Object.keys(machines).length.should.eql(0);
     });
