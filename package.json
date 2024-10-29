@@ -30,7 +30,7 @@
   "packageManager": "npm@10.9.0+sha512.65a9c38a8172948f617a53619762cd77e12b9950fe1f9239debcb8d62c652f2081824b986fee7c0af6c0a7df615becebe4bf56e17ec27214a87aa29d9e038b4b",
   "devDependencies": {
     "ls-engines": "0.9.3",
-    "mocha": "10.7.3",
+    "mocha": "10.8.1",
     "npm-run-all2": "7.0.1",
     "publint": "0.2.12",
     "should": "1.3.0"
