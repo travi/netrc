@@ -29,7 +29,7 @@
   },
   "packageManager": "npm@11.8.0+sha512.9f5f6c25e5be44629d907a3c482739c614b090a8505057d9685cd273e12c6172e34aa215d2d97bd9a0d8415bb356f7eb6f2b06c1d690b0d2cdcb9f09d7410149",
   "devDependencies": {
-    "ls-engines": "0.9.4",
+    "ls-engines": "0.10.0",
     "mocha": "11.7.5",
     "npm-run-all2": "8.0.4",
     "publint": "0.3.17",
