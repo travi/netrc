@@ -23,7 +23,7 @@
     "access": "public",
     "provenance": true
   },
-  "packageManager": "npm@11.15.0+sha512.fa4d2d93b9519e93143e70bb913b94ff2ad5fe69c5a0f84943be557cbb59e9fc1bcce55768fb1313f225f4f9f50c78b8f366f2332aa41effd7b10efa98d8d72f",
+  "packageManager": "npm@11.21.2+sha512.ec73c0a64f807e53146af4ac78bd4f9ba0a762a3081e4e77c7e2a6ba1aa64c3a8f9233cc8312294cf713aac13dd4428dc3880504957d7e75e249d1a6d435eaf4",
   "devDependencies": {
     "mocha": "11.7.6",
     "npm-run-all2": "9.0.1",
